@@ -106,10 +106,7 @@ MainView {
                 bottomMargin: units.gu(1)
             }
 
-            
-
             placeholderText: "boter, kaas, eieren"
-            
         }
 
         // Door op deze knop te drukken, wordt de boodschap toegevoegd
