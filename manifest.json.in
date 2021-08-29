@@ -1,0 +1,15 @@
+{
+    "name": "boodschappenlijstje.sanderklootwijk",
+    "description": "Een boodschappenlijstje voor Ubuntu Touch",
+    "architecture": "@CLICK_ARCH@",
+    "title": "Boodschappenlijstje",
+    "hooks": {
+        "boodschappenlijstje": {
+            "apparmor": "boodschappenlijstje.apparmor",
+            "desktop":  "boodschappenlijstje.desktop"
+        }
+    },
+    "version": "1.0.0",
+    "maintainer": "Sander Klootwijk <sander.klootwijk@tutanota.com>",
+    "framework" : "@CLICK_FRAMEWORK@"
+}
